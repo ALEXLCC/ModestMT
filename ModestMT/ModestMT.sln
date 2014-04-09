@@ -1,0 +1,137 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModestMT.Core.Arch.2.0", "ModestMT.Core.Arch\ModestMT.Core.Arch.2.0.csproj", "{C54CC297-9B97-4C92-9496-1EE594C1DE86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModestMT.Common.3.5", "ModestMT.Common\ModestMT.Common.3.5.csproj", "{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModestMT.Plugin", "ModestMT.Plugin\ModestMT.Plugin.csproj", "{8530DA4F-2E56-4193-B541-31A5058D3410}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3B9E1CAF-D9E7-4D1E-9D51-841D081658BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{9F95007E-76BE-44DD-BE32-4DFEA6FA7E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModestMT.AccumulateTreasure.Plugin", "ModestMT.AccumulateTreasure.Plugin\ModestMT.AccumulateTreasure.Plugin.csproj", "{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModestMT.AliDownloader", "ModestMT.AliDownloader\ModestMT.AliDownloader.csproj", "{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModestMT.AccumulateTreasure", "ModestMT.AccumulateTreasure\ModestMT.AccumulateTreasure.csproj", "{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{1F59E54A-4BC9-48FF-A8E9-1DC2F77CB524}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccumulateTreasure", "AccumulateTreasure", "{21CEA045-2AB6-4BC9-BE9B-8ADB8789FAF6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bornkiller.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ModestMT.Plugin\\ModestMT.Plugin.csproj
+		SccProjectTopLevelParentUniqueName1 = ModestMT.sln
+		SccProjectName1 = ModestMT.Plugin
+		SccLocalPath1 = ModestMT.Plugin
+		SccProjectUniqueName2 = ModestMT.Common\\ModestMT.Common.3.5.csproj
+		SccProjectTopLevelParentUniqueName2 = ModestMT.sln
+		SccProjectName2 = ModestMT.Common
+		SccLocalPath2 = ModestMT.Common
+		SccProjectUniqueName3 = ModestMT.Core.Arch\\ModestMT.Core.Arch.2.0.csproj
+		SccProjectTopLevelParentUniqueName3 = ModestMT.sln
+		SccProjectName3 = ModestMT.Core.Arch
+		SccLocalPath3 = ModestMT.Core.Arch
+		SccProjectUniqueName4 = ModestMT.AccumulateTreasure.Plugin\\ModestMT.AccumulateTreasure.Plugin.csproj
+		SccProjectTopLevelParentUniqueName4 = ModestMT.sln
+		SccProjectName4 = ModestMT.AccumulateTreasure.Plugin
+		SccLocalPath4 = ModestMT.AccumulateTreasure.Plugin
+		SccProjectUniqueName5 = ModestMT.AliDownloader\\ModestMT.AliDownloader.csproj
+		SccProjectTopLevelParentUniqueName5 = ModestMT.sln
+		SccProjectName5 = ModestMT.AliDownloader
+		SccLocalPath5 = ModestMT.AliDownloader
+		SccProjectUniqueName6 = ModestMT.AccumulateTreasure\\ModestMT.AccumulateTreasure.csproj
+		SccProjectTopLevelParentUniqueName6 = ModestMT.sln
+		SccProjectName6 = ModestMT.AccumulateTreasure
+		SccLocalPath6 = ModestMT.AccumulateTreasure
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{8530DA4F-2E56-4193-B541-31A5058D3410}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2EE6927-8986-4829-9EA8-CC7E5266A8EB} = {3B9E1CAF-D9E7-4D1E-9D51-841D081658BA}
+		{8530DA4F-2E56-4193-B541-31A5058D3410} = {3B9E1CAF-D9E7-4D1E-9D51-841D081658BA}
+		{C54CC297-9B97-4C92-9496-1EE594C1DE86} = {3B9E1CAF-D9E7-4D1E-9D51-841D081658BA}
+		{C12D0895-62A3-4C60-9242-6E52D9D0E4A4} = {21CEA045-2AB6-4BC9-BE9B-8ADB8789FAF6}
+		{9F95007E-76BE-44DD-BE32-4DFEA6FA7E06} = {21CEA045-2AB6-4BC9-BE9B-8ADB8789FAF6}
+		{24F4A12A-C92B-451B-BB2E-D7D9FD734F28} = {21CEA045-2AB6-4BC9-BE9B-8ADB8789FAF6}
+		{1F59E54A-4BC9-48FF-A8E9-1DC2F77CB524} = {21CEA045-2AB6-4BC9-BE9B-8ADB8789FAF6}
+		{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9} = {9F95007E-76BE-44DD-BE32-4DFEA6FA7E06}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\TFS\ModestMT\SourceCodes\ModestMT.Core.Arch\bin\Debug\ModestMT.Core.Arch.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.Core.Arch\bin\Debug\ModestMT.Core.Arch.pdb
+C:\TFS\ModestMT\SourceCodes\ModestMT.Core.Arch\bin\Debug\log4net.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.Core.Arch\obj\Debug\ModestMT.Core.Arch.2.0.csprojResolveAssemblyReference.cache
+C:\TFS\ModestMT\SourceCodes\ModestMT.Core.Arch\obj\Debug\ModestMT.Core.Arch.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.Core.Arch\obj\Debug\ModestMT.Core.Arch.pdb

@@ -1,0 +1,5 @@
+C:\TFS\ModestMT\SourceCodes\ModestMT.Common\bin\Debug\ModestMT.Common.3.5.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.Common\bin\Debug\ModestMT.Common.3.5.pdb
+C:\TFS\ModestMT\SourceCodes\ModestMT.Common\obj\Debug\ModestMT.Common.3.5.csprojResolveAssemblyReference.cache
+C:\TFS\ModestMT\SourceCodes\ModestMT.Common\obj\Debug\ModestMT.Common.3.5.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.Common\obj\Debug\ModestMT.Common.3.5.pdb

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AliDownload>
+	<DownloadFolder>下载</DownloadFolder>
+	<WebSites>
+		<WebSiteInfo Url="http://detail.1688.com/offer/1280228924.html" Status="1"/>
+		<WebSiteInfo Url="http://detail.1688.com/offer/1292247518.html" Status="1"/>
+	</WebSites>
+	<WetStores>
+		<WebSiteInfo Url="http://hhlinzi.1688.com/page/offerlist.htm" Status="1"/>
+	</WetStores>
+</AliDownload>

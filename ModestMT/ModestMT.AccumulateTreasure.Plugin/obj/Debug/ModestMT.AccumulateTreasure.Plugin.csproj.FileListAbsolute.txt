@@ -1,0 +1,10 @@
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\bin\Debug\ModestMT.AccumulateTreasure.Plugin.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\bin\Debug\ModestMT.AccumulateTreasure.Plugin.pdb
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\bin\Debug\ModestMT.Core.Arch.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\bin\Debug\ModestMT.Plugin.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\bin\Debug\log4net.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\bin\Debug\ModestMT.Core.Arch.pdb
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\bin\Debug\ModestMT.Plugin.pdb
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\obj\Debug\ModestMT.AccumulateTreasure.Plugin.csprojResolveAssemblyReference.cache
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\obj\Debug\ModestMT.AccumulateTreasure.Plugin.dll
+C:\TFS\ModestMT\SourceCodes\ModestMT.AccumulateTreasure.Plugin\obj\Debug\ModestMT.AccumulateTreasure.Plugin.pdb

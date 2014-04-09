@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F77FE9A-2210-4B12-B1AC-A54DC6A8E4B9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ModestMT.AliDownloader</RootNamespace>
+    <AssemblyName>ModestMT.AliDownloader</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Newtonsoft.Json.5.0.8\lib\net20\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddUrlListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUrlListForm.Designer.cs">
+      <DependentUpon>AddUrlListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AliProductDownloader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AliProductDownloader.Designer.cs">
+      <DependentUpon>AliProductDownloader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AliProductDownloaderPlugin.cs" />
+    <Compile Include="Bll\AbstractDownLoader.cs" />
+    <Compile Include="Bll\AliProductDownLoader.cs" />
+    <Compile Include="Bll\Arguments.cs" />
+    <Compile Include="Model\BaseEntity.cs" />
+    <Compile Include="Bll\IResourceManager.cs" />
+    <Compile Include="Bll\ResourceManager.cs" />
+    <Compile Include="Model\StatusCode.cs" />
+    <Compile Include="Model\WebSiteInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\ConfigManager.cs" />
+    <Compile Include="Utility\ExtractHelper.cs" />
+    <Compile Include="Utility\ProcessHelper.cs" />
+    <Compile Include="Utility\ProcessPool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddUrlListForm.resx">
+      <DependentUpon>AddUrlListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AliProductDownloader.resx">
+      <DependentUpon>AliProductDownloader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+    <Content Include="WebSite.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\stop.bmp" />
+    <None Include="Resources\start.bmp" />
+    <None Include="Resources\openfolder.bmp" />
+    <None Include="Resources\new.bmp" />
+    <None Include="Resources\cancel.bmp" />
+    <EmbeddedResource Include="aliproductdownloader.js" />
+    <EmbeddedResource Include="command.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModestMT.AccumulateTreasure.Plugin\ModestMT.AccumulateTreasure.Plugin.csproj">
+      <Project>{c12d0895-62a3-4c60-9242-6e52d9d0e4a4}</Project>
+      <Name>ModestMT.AccumulateTreasure.Plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModestMT.Core.Arch\ModestMT.Core.Arch.2.0.csproj">
+      <Project>{c54cc297-9b97-4c92-9496-1ee594c1de86}</Project>
+      <Name>ModestMT.Core.Arch.2.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModestMT.Plugin\ModestMT.Plugin.csproj">
+      <Project>{8530da4f-2e56-4193-b541-31a5058d3410}</Project>
+      <Name>ModestMT.Plugin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
